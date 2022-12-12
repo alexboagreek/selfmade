@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--footer-color-main);
-    margin-bottom: 50px;
 }
 
 .footer__social_list_item {
@@ -30,23 +29,9 @@
     display: flex;
 }
 
-.footer__services {
-    padding-bottom: 41px;
-}
-
-.services__list {
-    display: flex;
-    justify-content: space-between;
-}
-.services__list_item {
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--footer-social-color);
-}
-
 .footer__copyright {
     padding: 30px 140px;
-    border-top: 1px solid #FFFFFF;
+    
     background-color: var(--footer-color-copyright);
 }
 

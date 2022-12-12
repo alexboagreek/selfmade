@@ -2,7 +2,7 @@
     --footer-color-main: #5D5FEF;
     --footer-color-copyright: #5556D3;
     --footer-social-color: #FFFFFF;
-    --footer-copyright-link: #B6B6B6;
+    --footer_
 }
 
 html {
@@ -22,7 +22,6 @@ body {
   min-height: 100vh;
   font-family: Gilroy, sans-serif;
   background-color: #f9f9f9;
-  font-size: 16px;
   overflow-x: hidden;
   position: relative;
 }

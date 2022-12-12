@@ -1,0 +1,38 @@
+.footer {
+    background-color: var(--footer-color-main);
+}
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social_list_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 29px;
+    height: 29px;
+    background-color: var(--footer-social-color);
+    border-radius: 50%;
+    margin-right: 19px;
+    cursor: pointer;
+}
+
+.footer__social_list_item:last-child {
+    margin-right: 0;
+}
+
+.footer__social_list {
+    display: flex;
+}
+.footer__copyright {
+    background-color: var(foo);
+}
+.footer__copyright_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright_link {
+
+}

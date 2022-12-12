@@ -31,17 +31,12 @@
 }
 
 .footer__services {
-    padding-bottom: 41px;
+    mb41px
 }
 
 .services__list {
     display: flex;
     justify-content: space-between;
-}
-.services__list_item {
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--footer-social-color);
 }
 
 .footer__copyright {

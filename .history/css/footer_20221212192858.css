@@ -39,9 +39,7 @@
     justify-content: space-between;
 }
 .services__list_item {
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--footer-social-color);
+    f
 }
 
 .footer__copyright {
