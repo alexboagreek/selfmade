@@ -1,0 +1,16 @@
+.header {
+    padding-top: 28px;
+    padding-bottom: 37px;
+}
+
+.header__container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 100px;
+    background-color: var(--color-main);
+}
+.header__login {
+    display: flex;
+    align-items: center;
+    ju
+}

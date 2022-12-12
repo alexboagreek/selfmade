@@ -1,5 +1,4 @@
 :root {
-    --color-alarm: #EF5DA8;
     --color-main: #FBFBFB;
     --footer-color-main: #5D5FEF;
     --footer-color-copyright: #5556D3;
@@ -23,7 +22,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: Gilroy, sans-serif;
-  background-color: var(--color-main);
+  background-color: var();
   font-size: 16px;
   overflow-x: hidden;
   position: relative;

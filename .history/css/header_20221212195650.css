@@ -1,0 +1,6 @@
+.header__container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 100px;
+    background-color: var(--c);
+}

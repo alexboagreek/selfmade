@@ -1,0 +1,26 @@
+.header {
+    padding-top: 28px;
+    padding-bottom: 37px;
+}
+
+.header__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 100px;
+    background-color: var(--color-main);
+}
+
+.header__alarm {
+    margin-right: 11px;
+}
+.user__name {}
+.header__login {
+    display: flex;
+    align-items: center;
+}

@@ -1,5 +1,6 @@
 :root {
-    --color-alarm: #EF5DA8;
+    --color-alarm: background: #EF5DA8;
+
     --color-main: #FBFBFB;
     --footer-color-main: #5D5FEF;
     --footer-color-copyright: #5556D3;
