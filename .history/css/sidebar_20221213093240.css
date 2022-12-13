@@ -1,0 +1,7 @@
+.sidebar {
+    background-color: var(--color-sidebar);
+}
+
+.menu__button_control {
+    background-image: url('../assets/icons/portfolio_iocn.svg');
+}

@@ -1,0 +1,11 @@
+.sidebar {
+    background-color: var(--color-sidebar);
+}
+
+.menu__button_control {
+    background-image: url('../assets/icons/user__icon.svg');
+}
+
+.menu__button_portfolio {
+    background-image: url('../assets/icons/user__icon.svg');
+}

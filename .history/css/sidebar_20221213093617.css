@@ -1,0 +1,31 @@
+.sidebar {
+    background-color: var(--color-sidebar);
+}
+
+.menu__button_control {
+    background-image: url('../assets/icons/user__icon.svg');
+}
+
+.menu__button_portfolio {
+    background-image: url('../assets/icons/portfolio_icon.svg');
+}
+.menu__button_star {
+    background-image: url('../assets/icons/star_icon.svg');
+}
+
+.menu__button_like {
+    background-image: url('../assets/icons/like_icon.svg');
+}
+.menu__button_settings {
+    background-image: url('../assets/icons/user__icon.svg');
+}
+.menu__button_level {
+    background-image: url('../assets/icons/user__icon.svg');
+}
+.menu__button_control {
+    background-image: url('../assets/icons/user__icon.svg');
+}
+
+.menu__button_control {
+    background-image: url('../assets/icons/user__icon.svg');
+}
