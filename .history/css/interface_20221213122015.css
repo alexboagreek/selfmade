@@ -1,0 +1,19 @@
+.interface__box {
+    width: 634px;
+}
+.interface__box_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user__info {
+    display: flex;
+    align-items: center;
+}
+
+.interface__text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.06;
+    color: #2F2F2F;
+}

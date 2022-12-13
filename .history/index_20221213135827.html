@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="assets/icons/favicon_48.png">
+    <title>Selfmade</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="visually-hidden">Selfmade...</h1>
+            <div class="header__box">
+                <div class="header__logo">
+                    <a href="/"><img src="./assets/icons/header_logo.svg" alt="Логотип Selfmade"></a>
+                </div>
+                <div class="header__login">
+                    <div class="header__alarm">
+                        <img class="header__alarm_icon" src="assets/icons/bell.svg" alt="authorization bell">
+                    </div>
+                    <p class="user__name">Аракелян Д.</p>
+                    <div class="user__login">
+                        <img src="assets/icons/user_icon.svg" alt="user icon">
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </header>
+
+    <main class="main main__container">
+        <div class="sidebar">
+            <ul class="menu__list">
+                <li class="menu__list_item menu__list_item_fix">
+                    <button class="menu__list_button menu__button_control control__text">Управление</button>
+                </li>
+                <li class="menu__list_item list_item_fix">
+                    <button class="menu__list_button menu__button_portfolio">Портфолио</button>
+                </li>
+                <li class="menu__list_item list_item_fix">
+                    <button class="menu__list_button menu__button_star">Награды</button>
+                </li>
+                <li class="menu__list_item list_item_fix">
+                    <button class="menu__list_button menu__button_like">Избранное</button>
+                </li>
+                <li class="menu__list_item list_item_fix">
+                    <button class="menu__list_button menu__button_settings">Аккаунт</button>
+                </li>
+                <li class="menu__list_item list_item_fix">
+                    <button class="menu__list_button menu__button_level">Уровень</button>
+                </li>
+                <li class="menu__list_item list_item_fix">
+                    <button class="menu__list_button menu__button_premium menu__button_active">Премиум</button>
+                </li>
+                <li class="menu__list_item item__border list_item_fix">
+                    <button class="menu__list_button menu__button_helper">Поддержка</button>
+                </li>
+                <li class="menu__list_item list_item_fix menu__line">
+                    <button class="menu__list_button menu__button_exit">Выйти</button>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <section class="interface">
+                <div class="interface__box">
+                    <div class="interface__box_header interface__line">
+                        <div class="user__info">
+                            <img src="assets/img/interface.png" alt="Логотип интерфейса юзера | user interface logo" class="interface__img">
+                            <p class="interface__text">Давид Аракелян</p>
+                        </div>
+                        <div class="interface__rating">Топ</div>
+                    </div>
+                    <div class="selfmade__respect">
+                        <h2 class="selfmade__respect_title">SELFMADE RESPECT (SR) <span class="selfmade__span">(Что это?)</span></h2>
+                        <ul class="selfmade__list">
+                            <li class="selfmade__list_item"><span class="selfmade__profile"></span><span class="list__text">Профиль</span></li>
+                            <li class="selfmade__list_item"><span class="selfmade__portfolio"></span>Портфолио</li>
+                            <li class="selfmade__list_item"><span class="selfmade__fresh"></span>SR ФРЕШ</li>
+                            <li class="selfmade__list_item"><span class="selfmade__pro"></span>SR ПРО</li>
+                            <li class="selfmade__list_item"><span class="selfmade__top"></span>SR ТОП</li>
+                        </ul>
+                    </div>
+                    <div class="selfmade__disk">
+                        <h3 class="selfmade__disk_title">Мой диск</h3>
+                        <div class="selfmade__disk_progress">
+                            <p class="selfmade__disk_text">Осталось</p>
+                            
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+  <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__box">
+            <img src="./assets/icons/footer_logo.svg" alt="Логотип Selfmade">
+            <div class="footer__social">
+                <ul class="footer__social_list">
+                    <li class="footer__social_list_item">
+                        <svg width="15" height="14" viewbox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.911243 6.87875L4.18677 8.10128L5.45459 12.1786C5.53572 12.4397 5.85504 12.5363 6.067 12.363L7.89283 10.8745C8.08421 10.7186 8.35682 10.7108 8.55683 10.856L11.85 13.2469C12.0767 13.4117 12.3979 13.2875 12.4548 13.0135L14.8672 1.40935C14.9293 1.11007 14.6352 0.860402 14.3502 0.970619L0.907405 6.15646C0.575664 6.2844 0.578554 6.75408 0.911243 6.87875ZM5.25027 7.4505L11.6519 3.50775C11.7669 3.43709 11.8853 3.59266 11.7865 3.6843L6.50332 8.59526C6.31761 8.76813 6.19783 8.99946 6.1639 9.25055L5.98393 10.5842C5.9601 10.7623 5.70995 10.78 5.66081 10.6077L4.96866 8.17563C4.88939 7.89823 5.00491 7.60194 5.25027 7.4505Z" fill="#5D5FEF"/>
+                        </svg>
+                    </li>
+                    <li class="footer__social_list_item">
+                        <svg width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.90509 0.6828C2.54568 0.6828 0.632996 2.59548 0.632996 4.9549V10.295C0.632996 12.6544 2.54568 14.5671 4.90509 14.5671H10.2452C12.6046 14.5671 14.5173 12.6544 14.5173 10.295V4.9549C14.5173 2.59548 12.6046 0.6828 10.2452 0.6828H4.90509ZM7.57515 3.88687C5.51067 3.88687 3.83707 5.56047 3.83707 7.62496C3.83707 9.68944 5.51067 11.363 7.57515 11.363C9.63964 11.363 11.3132 9.68944 11.3132 7.62496C11.3132 5.56047 9.63964 3.88687 7.57515 3.88687ZM11.5421 4.64975C12.0898 4.64975 12.5338 4.20573 12.5338 3.65801C12.5338 3.11029 12.0898 2.66627 11.5421 2.66627C10.9944 2.66627 10.5504 3.11029 10.5504 3.65801C10.5504 4.20573 10.9944 4.64975 11.5421 4.64975Z" fill="#5D5FEF"/>
+                        </svg>
+                    </li>
+                    <li class="footer__social_list_item">
+                        <svg width="16" height="9" viewbox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.9479 4.91454C12.7006 4.61918 12.7714 4.48778 12.9479 4.22376C12.9511 4.22075 14.9925 1.55289 15.2028 0.648132L15.2041 0.647529C15.3086 0.317814 15.2041 0.0755005 14.6987 0.0755005H13.0263C12.6006 0.0755005 12.4043 0.283456 12.2991 0.516125C12.2991 0.516125 11.4477 2.44378 10.2431 3.69332C9.85434 4.05438 9.67462 4.17012 9.46239 4.17012C9.35787 4.17012 9.19535 4.05438 9.19535 3.72467V0.647529C9.19535 0.252112 9.07617 0.0755005 8.72373 0.0755005H6.09412C5.82709 0.0755005 5.66839 0.259948 5.66839 0.431737C5.66839 0.80666 6.27066 0.892856 6.33312 1.9477V4.23642C6.33312 4.73792 6.23689 4.83015 6.02338 4.83015C5.45489 4.83015 4.07508 2.89465 3.25739 0.679476C3.09232 0.249701 2.93108 0.0761032 2.50216 0.0761032H0.829178C0.351821 0.0761032 0.255585 0.284059 0.255585 0.516728C0.255585 0.927817 0.824079 2.97181 2.89921 5.67222C4.28221 7.51549 6.22988 8.51428 8.00164 8.51428C9.06661 8.51428 9.19663 8.29246 9.19663 7.91091C9.19663 6.14961 9.10039 5.98325 9.63383 5.98325C9.88111 5.98325 10.3068 6.09898 11.3011 6.98806C12.4374 8.04231 12.6242 8.51428 13.2602 8.51428H14.9326C15.4093 8.51428 15.6508 8.29246 15.5119 7.85485C15.1939 6.93442 13.0448 5.04112 12.9479 4.91454V4.91454Z" fill="#5D5FEF"/>
+                        </svg>
+                    </li>
+                    <li class="footer__social_list_item">
+                        <svg width="7" height="14" viewbox="0 0 7 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.1126 2.93661H6.8285V0.446777H4.81141V0.455757C2.36736 0.540786 1.86645 1.89031 1.8223 3.30771H1.81727V4.55101H0.153015V6.9893H1.81727V13.5253H4.3254V6.9893H6.37996L6.77685 4.55101H4.32622V3.79984C4.32622 3.32082 4.65072 2.93661 5.1126 2.93661Z" fill="#5D5FEF"/>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__services">
+            <ul class="services__list">
+                <li class="services__list_item">Как работает сервис?</li>
+                <li class="services__list_item">Советы от SELFMADE</li>
+                <li class="services__list_item">Пользовательское соглашение</li>
+                <li class="services__list_item">Почему SELFMADE</li>
+                <li class="services__list_item">Помощь и поддержка</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        <ul class="footer__copyright_list">
+            <li class="footer__copyright_list_item footer__copy_text">© SELFMADE.TEAM 2022</li>
+            <li class="footer__copyright_list_item footer__copy_text-info">ИНН 431207720494 / ОГРНИП 320508100324371</li>
+            <li class="footer__copyright_list_item">
+                <a class="footer__copyright_link" href="#">Политика конфиденциальности</a>
+            </li>
+        </ul>
+    </div>
+    
+  </footer>
+</body>
+</html>
