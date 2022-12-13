@@ -1,0 +1,17 @@
+.table__body {
+    width: 936px;
+}
+
+.table__head {
+    padding: 21px 16px;
+    background-color: #5D5FEF;
+    text-align: left;
+    color: #D6D6FF;
+    border-top-left-radius: 15px;
+}
+
+.table__text {
+    background-color: #5D5FEF;
+    color: #FFFFFF;
+    border-top-r-radius: 15px;
+}
