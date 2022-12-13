@@ -1,9 +1,4 @@
 
-.interface {
-    display: flex;
-    margin-bottom: 13px;
-}
-
 .interface__box {
     border-radius: 15px;
     padding: 16px 21px;

@@ -1,8 +1,6 @@
 
-.interface {
-    display: flex;
-    margin-bottom: 13px;
-}
+.interface 
+
 
 .interface__box {
     border-radius: 15px;
