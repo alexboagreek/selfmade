@@ -42,7 +42,6 @@
     text-transform: uppercase;
 }
 .selfmade__respect_title {
-    margin-top: 29px;
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 19px;
@@ -129,7 +128,6 @@
     background-color: #EF5DA8;
 }
 .selfmade__disk_title {
-    margin-top: 22px;
     font-size: 19px;
     font-weight: 600;
     color: #2F2F2F;
@@ -184,8 +182,13 @@
     margin-bottom: 30px;
 }
 
-.helper {
+.helper__ {
+    position: fixed;
+    left: 506px;
+    width: 100%;
+    width: 634px;
     height: 1px;
     background-color: #000000;
-    opacity: 0.1; 
+    opacity: 0.1;
+    margin-bottom: 29px;
 }
