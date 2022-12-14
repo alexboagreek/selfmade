@@ -1,0 +1,68 @@
+.skills__box {
+    width: 270px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--color-main);;
+}
+
+.skills__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__circular_progress {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(#A5A6F6 3.6deg, #ededed 0deg);
+    border-radius: 50%;
+}
+.skills__circular_progress::before {
+    
+}
+
+.skills__box_title {
+    padding-top: 29px;
+}
+
+.skills__progress {
+    color: #717171;
+    font-size: 12px;
+}
+
+.skills__progress_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress__value {
+    font-weight: 600;
+    font-size: 34px;
+    color: #5D5FEF;
+
+}
+
+.progress__total {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #717171;
+}
+
+.skills__up {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #EF5DA8;
+}
+
+.span__touch {
+    font-size: 20px;
+}
+
+.skills__pump {
+    color: #5D5FEF;
+    font-size: 20px;
+    font-weight: 700;
+}

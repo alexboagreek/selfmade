@@ -1,0 +1,10 @@
+.skills__box {
+    width: 270px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--color-main);;
+}
+
+.skills__box_title {
+    
+}

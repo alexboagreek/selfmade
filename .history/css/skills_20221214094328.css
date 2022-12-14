@@ -1,0 +1,24 @@
+.skills__box {
+    width: 270px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: var(--color-main);;
+}
+
+.skills__box_title {
+    padding-top: 29px;
+}
+
+.skills__progress {
+    color: #717171;
+    font-size: 12px;
+}
+.span__touch {
+    display: block;
+    
+}
+.skills__pump {
+    color: #5D5FEF;
+    font-size: 20px;
+    font-weight: 700;
+}
